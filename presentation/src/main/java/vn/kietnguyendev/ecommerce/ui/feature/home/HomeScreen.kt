@@ -58,7 +58,7 @@ fun ProductItem(product: Product) {
 
             Spacer(modifier = Modifier.width(16.dp))
             Column {
-                Text(text = product.title, style = MaterialTheme.typography.titleMedium)
+                Text(text = product.title, style = MaterialTheme.typography.titleLarge)
                 Text(text = "$${product.price}", style = MaterialTheme.typography.bodyMedium)
             }
         }
